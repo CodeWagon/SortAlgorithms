@@ -26,6 +26,7 @@ void bubbleSort(int arr[],int n){
         // because the last i elements will already be sorted
         for(j=0;j<n-i-1;j++){
             if(arr[j] > arr[j+1])
+             // swap the addresses of adjacent elements
                  swap(&arr[j], &arr[j+1]); 
         }
     }
